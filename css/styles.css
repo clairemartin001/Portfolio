@@ -1,0 +1,877 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&display=swap');
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,700&display=swap" rel="stylesheet"> */
+
+h1{ 
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 30px;
+
+
+  
+}
+
+
+p{ 
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 1.3;
+
+  
+}
+
+img{ 
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body{ 
+  margin: 10px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+}
+
+.cm-intro{
+  width: 100%;
+  height: 100vh;
+  font-size: 800px;
+  font-family:'Inter Tight', sans-serif;
+  font-style: italic;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 130px; */
+  background-color: white;
+  /* background-image: url('/images/water1.gif');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  animation: done 3.5s forwards;
+
+}
+
+#cm-words{
+  margin-top: 130px;
+}
+
+
+#shell{ 
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  scale: .5;
+
+}
+
+#shell2{ 
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  scale: .3;
+
+}
+
+#shell3{ 
+  position: absolute;
+  bottom: 30%;
+  left: 40%;
+  scale: .9;
+
+}
+
+#tiedhearts{ 
+  position: absolute;
+  bottom: 45%;  
+  left: 60%;
+  scale: .4;
+
+}
+
+#tiedhearts2{ 
+  position: absolute;
+ top: 20%; 
+right: 65%;
+  scale: .7;
+
+}
+
+
+#strawberry{ 
+  position: absolute;
+  bottom: 40%;  
+  right: 65%;
+  scale: .3;
+
+}
+
+#strawberry2{ 
+  position: absolute;
+  bottom: 20%;  
+  right: 50%;
+  scale: .2;
+
+}
+
+#strawberry3{ 
+  position: absolute;
+  bottom: 0%;  
+  right: 20%;
+  scale: .6;
+
+}
+
+
+
+.head-bar{ 
+  background-color: white;
+  border: 3px solid black;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+
+}
+
+.logo{ 
+height: 110px;
+width: 110px;
+background-image: url('/images/logo.gif');
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: 40px;
+margin-top: 5px;
+}
+
+.clairemartin{ 
+  width: 100%;
+  height: 90px;
+  display: flex;
+justify-content: center;
+margin-top: 10px;
+align-items: center;
+}
+
+
+
+
+
+button{ 
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 20px;
+  }
+
+
+  button:hover{background-color: black; color: white;}
+
+
+
+.container{ 
+  display: flex;
+}
+
+.projectsbar{ 
+  background-color: white;
+  border: 2px solid black;
+  overflow: scroll;
+  width: 15%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.info-section{ 
+  position: relative;
+  top: 100%;
+}
+
+.textblurb{ 
+
+  border: 2px solid black;
+  overflow: scroll;
+  width: 30%;
+  height: 100vh;
+  background-image: url('/images/water1.gif');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  
+
+}
+
+.contenttext{ 
+  margin: 50px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 50px;
+  padding: 30px;
+  box-shadow: 8px 8px;
+}
+
+.projectimages{ 
+  background-color: white;
+  border: 2px solid black;
+  overflow: scroll;
+  overflow-x: hidden !important;
+  width: 55%;
+  height: 100vh;
+}
+
+
+
+
+
+.scroll{ 
+  width: calc(100% + 400px);
+  left: -400px;
+  height: 35px;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  cursor: none;
+}
+
+
+.scroll div{ 
+  color: white;
+  font-family: "essential-pragmatapro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: .8em;
+  white-space: nowrap;
+  animation: animate 40s linear infinite;
+  animation-delay: -40s;
+}
+
+
+.scroll div:nth-child(2)
+{
+  animation: animate-two 40s linear infinite;
+  animation-delay: -20s;
+}
+
+@keyframes animate {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+  
+}
+
+@keyframes animate-two {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-200%);
+  }
+  
+}
+
+
+
+.image-grid{ 
+  margin-bottom: 175px;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.column {
+  flex: 50%;
+  height: 400px;
+  margin: 30px;
+
+}
+
+
+.image1{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: white;
+border: 2px solid black;
+box-shadow: 8px 8px;}
+
+.image2{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 8px 8px;}
+
+.image3{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 8px 8px;}
+
+.image4{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 8px 8px;}
+
+.image5{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 8px 8px;}
+
+.image6{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 8px 8px;}
+
+  .image7{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 8px 8px;}
+
+    .image8{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border: 2px solid black;
+      box-shadow: 8px 8px;}
+  
+      .image9{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: 2px solid black;
+        box-shadow: 8px 8px;}
+    
+
+        .image10{ 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          border: 2px solid black;
+          box-shadow: 8px 8px;}
+
+      
+
+
+          #shell{
+            opacity: 0%;
+            animation: pop1 10s linear forwards;
+          }
+
+          #shell2{
+            opacity: 0%;
+            animation: pop4 10s linear forwards;
+            
+          }
+
+          #shell3{
+            opacity: 0%;
+            animation: pop7 10s linear forwards;
+            
+            
+          }
+
+          #tiedhearts{
+            opacity: 0%;
+            animation: pop2 10s linear forwards;
+          }
+
+          #tiedhearts2{
+            opacity: 0%;
+            animation: pop6 10s linear forwards;
+            
+          }
+
+          #strawberry{
+            opacity: 0%;
+            animation: pop8 10s linear forwards;
+          }
+
+          #strawberry2{
+            opacity: 0%;
+            animation: pop5 10s linear forwards;
+            
+          }
+
+          #strawberry3{
+            opacity: 0%;
+            animation: pop3 10s linear forwards;
+          }
+
+          @keyframes pop1 {
+            0% { opacity: 0%;}
+            8%{opacity: 0%;}
+            9% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop2 {
+            0% { opacity: 0%;}
+            10%{opacity: 0%;}
+            11% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop3 {
+            0% { opacity: 0%;}
+            15%{opacity: 0%;}
+            16% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop4 {
+            0% { opacity: 0%;}
+            18%{opacity: 0%;}
+            19% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop5 {
+            0% { opacity: 0%;}
+            20%{opacity: 0%;}
+            21% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop6 {
+            0% { opacity: 0%;}
+            22%{opacity: 0%;}
+            23% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop7 {
+            0% { opacity: 0%;}
+            25%{opacity: 0%;}
+            26% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes pop8 {
+            0% { opacity: 0%;}
+            27%{opacity: 0%;}
+            28% {opacity: 100%;}
+            100%{opacity: 100%;}
+            
+          }
+
+          @keyframes done {
+            98%{opacity: 100%;}
+            100%{opacity: 0%;}
+          }
+
+
+
+/* 
+          #projectimages.fullscreen{
+            z-index: 9999; 
+            width: 100%; 
+            height: 900px; 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            overflow: scroll;
+            margin-top: 110px;
+            
+         } */
+        
+
+         #image1.fullscreen{
+          z-index: 9999; 
+          width: 90%; 
+          height: 83%; 
+          position: fixed; 
+          top: 0; 
+          left: 2%; 
+          margin-top: 110px;
+          border: 5px solid black;
+          
+          
+       }
+
+       #image2.fullscreen{
+        z-index: 9999; 
+          width: 90%; 
+          height: 83%; 
+          position: fixed; 
+          top: 0; 
+          left: 2%; 
+          margin-top: 110px;
+          border: 5px solid black;
+          
+     }
+
+     #image3.fullscreen{
+      z-index: 9999; 
+          width: 90%; 
+          height: 83%; 
+          position: fixed; 
+          top: 0; 
+          left: 2%; 
+          margin-top: 110px;
+          border: 5px solid black;
+      
+   }
+
+   #image4.fullscreen{
+    z-index: 9999; 
+    width: 90%; 
+    height: 83%; 
+    position: fixed; 
+    top: 0; 
+    left: 2%; 
+    margin-top: 110px;
+    border: 5px solid black;
+    
+    
+ }
+
+ #image5.fullscreen{
+  z-index: 9999; 
+          width: 90%; 
+          height: 83%; 
+          position: fixed; 
+          top: 0; 
+          left: 2%; 
+          margin-top: 110px;
+          border: 5px solid black;
+  
+}
+
+#image6.fullscreen{
+  z-index: 9999; 
+          width: 90%; 
+          height: 83%; 
+          position: fixed; 
+          top: 0; 
+          left: 2%; 
+          margin-top: 110px;
+          border: 5px solid black;
+}
+
+#image7.fullscreen{
+  z-index: 9999; 
+          width: 90%; 
+          height: 83%; 
+          position: fixed; 
+          top: 0; 
+          left: 2%; 
+          margin-top: 110px;
+          border: 5px solid black;
+}
+
+#image8.fullscreen{
+  z-index: 9999; 
+  width: 90%; 
+  height: 83%; 
+  position: fixed; 
+  top: 0; 
+  left: 2%; 
+  margin-top: 110px;
+  border: 5px solid black;
+  
+}
+
+#image9.fullscreen{
+  z-index: 9999; 
+  width: 90%; 
+  height: 83%; 
+  position: fixed; 
+  top: 0; 
+  left: 2%; 
+  margin-top: 110px;
+  border: 5px solid black;
+  
+}
+
+#image10.fullscreen{
+  z-index: 9999; 
+  width: 90%; 
+  height: 83%; 
+  position: fixed; 
+  top: 0; 
+  left: 2%; 
+  margin-top: 110px;
+  border: 5px solid black;
+  
+}
+
+
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+}
+
+
+
+          @media only screen and (max-width: 1600px) {
+            
+            .column {
+              height: 300px;
+            }
+
+            button{
+              font-size: 17px;
+            }
+    
+          }
+
+          @media only screen and (max-width: 1200px) and (min-width: 900px) {
+ 
+          body{background-color: aquamarine;}
+
+          h1{ font-size: 20px;}
+          p{ font-size: 14px;}
+
+            .row{flex-direction: column;}
+
+            .column{ 
+              margin-left: 60px;
+              margin-right: 60px;
+              margin-top: 5px;
+            }
+
+            .clairemartin{ width: 70%;
+            align-items: center;}
+
+            .logo{
+              margin-left: 5px;
+              margin-top: 10px;
+              height: 90px;
+              width: 90px; 
+              
+            }
+
+            button{
+              font-size: 15px;
+            }
+
+            #image1.fullscreen{ 
+              left: -30px;
+            }
+            #image2.fullscreen{ 
+              left: -30px;
+            }
+            #image3.fullscreen{ 
+              left: -30px;
+            }
+            #image4.fullscreen{ 
+              left: -30px;
+            }
+            #image5.fullscreen{ 
+              left: -30px;
+            }
+            #image6.fullscreen{ 
+              left: -30px;
+            }
+            #image7.fullscreen{ 
+              left: -30px;
+            }
+            #image8.fullscreen{ 
+              left: -30px;
+            }
+            #image9.fullscreen{ 
+              left: -30px;
+            }
+            #image10.fullscreen{ 
+              left: -30px;
+            }
+
+          }
+
+ @media only screen and (max-width: 899px) and (min-width: 650px) {
+ 
+            body{background-color: blue;}
+  
+            h1{ font-size: 18px;}
+            p{ font-size: 12px;}
+  
+              .row{flex-direction: column;}
+  
+              .column{ 
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-top: 5px;
+              }
+  
+              .clairemartin{ width: 70%;
+              align-items: center;}
+  
+              .logo{
+                margin-left: 5px;
+                margin-top: 10px;
+                height: 90px;
+                width: 90px; 
+                
+              }
+  
+              button{
+                font-size: 15px;
+                border: 1.5px solid black;
+              }
+  
+              #image1.fullscreen{ 
+                left: -30px;
+              }
+
+              .contenttext{
+                margin: 50px 20px 20px 20px;
+              }
+
+              #image1.fullscreen{ 
+                left: -20px;
+              }
+              #image2.fullscreen{ 
+                left: -20px;
+              }
+              #image3.fullscreen{ 
+                left: -20px;
+              }
+              #image4.fullscreen{ 
+                left: -20px;
+              }
+              #image5.fullscreen{ 
+                left: -20px;
+              }
+              #image6.fullscreen{ 
+                left: -20px;
+              }
+              #image7.fullscreen{ 
+                left: -20px;
+              }
+              #image8.fullscreen{ 
+                left: -20px;
+              }
+              #image9.fullscreen{ 
+                left: -20px;
+              }
+              #image10.fullscreen{ 
+                left: -20px;
+              }
+  
+      
+            }
+
+
+            @media only screen and (max-width: 649px) {
+ 
+              body{background-color: red;}
+    
+              h1{ font-size: 14px; font-weight: 600;}
+              p{ font-size: 11px;}
+
+              button{ font-size: 12px;
+                border: 1.5px solid black;}
+    
+                .row{flex-direction: column;}
+    
+                .column{ 
+                  margin-left: 30px;
+                  margin-right: 30px;
+                  margin-top: 5px;
+                }
+    
+                .clairemartin{ width: 70%;
+                align-items: center;}
+    
+                .logo{
+                  margin-left: 5px;
+                  margin-top: 10px;
+                  height: 90px;
+                  width: 90px; 
+                  
+                }
+    
+                button{
+                  font-size: 15px;
+                }
+    
+                #image1.fullscreen{ 
+                  left: -30px;
+                }
+  
+                .contenttext{
+                  margin: 50px 10px 10px 10px;
+                  padding: 30px 10px 10px 10px;
+                }
+
+                #image1.fullscreen{ 
+                  left: -40px;
+                }
+                #image2.fullscreen{ 
+                  left: -40px;
+                }
+                #image3.fullscreen{ 
+                  left: -40px;
+                }
+                #image4.fullscreen{ 
+                  left: -40px;
+                }
+                #image5.fullscreen{ 
+                  left: -40px;
+                }
+                #image6.fullscreen{ 
+                  left: -40px;
+                }
+                #image7.fullscreen{ 
+                  left: -40px;
+                }
+                #image8.fullscreen{ 
+                  left: -40px;
+                }
+                #image9.fullscreen{ 
+                  left: -40px;
+                }
+                #image10.fullscreen{ 
+                  left: -40px;
+                }
+
+                
+        
+              }
+
+         
