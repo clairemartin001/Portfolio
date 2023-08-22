@@ -129,7 +129,7 @@ right: 65%;
 .head-bar{ 
   background-color: white;
   border: 3px solid black;
-  height: 110px;
+  height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -139,7 +139,7 @@ right: 65%;
 }
 
 .logo{ 
-height: 110px;
+height: 85px;
 width: 110px;
 background-image: url('/images/logo.gif');
 background-size: contain;
@@ -150,10 +150,10 @@ margin-top: 5px;
 
 .clairemartin{ 
   width: 100%;
-  height: 90px;
+  height: 60px;
   display: flex;
 justify-content: center;
-margin-top: 10px;
+margin-top: 20px;
 align-items: center;
 }
 
@@ -163,15 +163,15 @@ align-items: center;
 
 button{ 
   background-color: white;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   color: black;
-  height: 80px;
-  text-align: center;
+  height: 60px;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   width: 100%;
   font-family: 'Inter Tight', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   }
 
 
@@ -193,6 +193,12 @@ button{
   flex-direction: column;
   
 
+}
+
+.me-socials{
+  margin-left: 10px;
+  margin-top: 50px;
+  font-style: italic;
 }
 
 .info-section{ 
@@ -751,7 +757,7 @@ box-shadow: 8px 8px;}
   
               button{
                 font-size: 15px;
-                border: 1.5px solid black;
+                /* border: 1.5px solid black; */
               }
   
               #image1.fullscreen{ 
