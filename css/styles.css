@@ -163,7 +163,7 @@ align-items: center;
 
 button{ 
   background-color: white;
-  /* border: 3px solid black; */
+  border: 1.5px black solid;
   color: black;
   height: 60px;
   text-align: left;
@@ -172,6 +172,7 @@ button{
   width: 100%;
   font-family: 'Inter Tight', sans-serif;
   font-size: 15px;
+  /* text-decoration: underline; */
   }
 
 
@@ -199,6 +200,13 @@ button{
   margin-left: 10px;
   margin-top: 50px;
   font-style: italic;
+}
+
+#email:hover{
+  color: pink;
+}
+#resume:hover{
+  color: pink;
 }
 
 .info-section{ 
